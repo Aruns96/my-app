@@ -22,6 +22,7 @@ const developer = () => {
     <div>{res.length>0 ? res.map(i=>(
       <div key={i.id}>
       <h1>{i.name}</h1>
+      <h1>{i.role}</h1>
       </div>
     )):<h1>no dev available</h1>}</div>
   )
